@@ -58,6 +58,11 @@
 
 /* Grid */
 
+	i {
+		font-size: 3em;
+		margin: 15px;
+	}
+
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
