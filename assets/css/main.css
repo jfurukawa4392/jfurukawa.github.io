@@ -1701,7 +1701,7 @@
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		/*border-bottom: dotted 1px rgba(255, 255, 255, 0.35);*/
 		color: #ffffff;
 		text-decoration: none;
 	}
@@ -1790,7 +1790,7 @@
 			font-weight: 200;
 		}
 
-		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+		h1.major, h2.major, h4.major, h5.major, h6.major {
 			padding-bottom: 1em;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 		}
@@ -2738,6 +2738,35 @@
 			.features article:nth-child(2n) {
 				margin-right: 0;
 			}
+
+		.devicon-github-plain {
+			font-size: 2em;
+			border-bottom: 0px;
+			text-decoration: none;
+		}
+
+		.project-links {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-wrap: wrap;
+			-webkit-flex-wrap: wrap;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+		}
+
+		.live-link{
+			font-size: 1em;
+			position: relative;
+			bottom: 1.25vh;
+		}
+
+		.project-links a:hover{
+			cursor: pointer;
+		}
 
 			.features article .image {
 				border-radius: 5px 5px 0 0;
