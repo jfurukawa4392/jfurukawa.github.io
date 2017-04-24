@@ -2733,9 +2733,6 @@
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
-			&:hover{
-				border: 1px solid white;
-			}
 		}
 
 			.features article:nth-child(2n) {
@@ -3103,10 +3100,12 @@
 			opacity: 1;
 		}
 
-/* Banner */
+/*
+ */
 
 	#banner {
 		padding: 10em 0 4.75em 0 ;
+		height: 90vh;
 	}
 
 		#banner .inner {
